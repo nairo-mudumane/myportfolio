@@ -9,21 +9,22 @@ const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 :root {
-  --dark-bg: #1e2327; 
-  --gray-1: #BCB4B4;
-  --deep-dark: #161b22; 
-  --gray-2: #363636;
-  --error-bg: #c10439;
-  --error-color: #fff;
-  --blue: #58a6ff;
-  --white: #fff;
-  --black: #111;
+  --color-white-1: #fff;
+  --color-black-1: #111;
+  --color-blue-1: #58a6ff;
+  --color-gray-1: #BCB4B4;
+  --color-gray-2: #363636;
+  --bg-dark-1: #1e2327; 
+  --bg-dark-2: #161b22; 
+  --bg-error: #c10439;
+  --color-error: #fff;
 }
 html,
 body {
-  font-size: 10px;
+  color: var(--color-white-1);
+  font-size: 16px;
   font-family: 'Roboto Mono';
-  background-color: var(--dark-bg);
+  background-color: var(--bg-dark-1);
 }
 h1,
 h2,
